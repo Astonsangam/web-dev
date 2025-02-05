@@ -1,0 +1,18 @@
+*{
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.flex-item{
+    border: 5px solid  red  ;
+    padding: 2.5px  ;
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(55, 124, 9, 0.342);
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

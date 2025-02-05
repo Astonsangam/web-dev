@@ -1,0 +1,11 @@
+*{
+    margin: 0px ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+#box{
+    border: 20px solid  red  ;
+    padding: 20px  ;
+    
+
+}

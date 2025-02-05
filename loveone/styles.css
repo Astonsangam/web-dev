@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 20px;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+}
+
+/* Images */
+img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+}
+
+/* Form */
+form {
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <H1> Form</H1>
+    </header>
+    <main>
+
+        <form action="/sunmit.php" method="post">
+            <label for="Firstname"> First Name</label>
+            <input type="text" id ="Firstname" placeholder="Enter First Nmae"> 
+            <br>
+            <br>
+            <label for="Lastname">Lastname </label>
+            <input type="text" id ="Lastname" placeholder="Enter Last Name">
+            <br>
+            <br>
+            <p>Select one</p>
+            <label for="male">
+                <input type="radio" id="male" name="gender"/>
+                Male
+            </label>
+            <label for="Female">
+                <input type="radio" id="Female" name="gender"/>
+                Female
+            </label>
+            <br>
+            <p> Favourite subject</p>
+            <label for="math">
+
+                <input type="checkbox" id="math" name="math" value="math"/>
+                math
+            </label>
+            <label for="english">
+            <input type="checkbox" id="english" name="english" value="english"/>
+            english
+
+            </label>
+            <label for="science">
+
+                <input type="checkbox" id="science" name="science" value="science"/>
+                science
+            </label>
+            <br>
+            <h2> country</h2>
+            <select id="country" name="country" >
+                <option>select</option>
+                <option value="USA">USA</option>
+                <option value="canada">canada</option>
+                <option value="australia">australia</option>
+                
+            </select>
+            <br>
+            <br>
+            <p>About Me</p>
+            <br>
+            
+            <textarea name="aboutMe" id="aboutMe" cols="2" rows="2"> </textarea>
+            <br>
+            <br>
+            <button type="submit"> Submit</button>
+  
+        </form>
+        
+    </main>
+<footer>
+    <P>
+        footer
+    </P>
+
+</footer>
+</body>
+</html>
