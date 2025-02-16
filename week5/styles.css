@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    border: 2px solid green;
+  }
+  .content {
+    width: 300px;
+    background-color: blueviolet;
+  }
+  
+  img {
+    width: 50%;
+    height: auto;
+  }
+  .image-container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
