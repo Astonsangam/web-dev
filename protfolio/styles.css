@@ -43,3 +43,302 @@ nav ul li a {
     padding: 20px;
     border-radius: 10px;
 }
+
+
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navbar */
+.navbar {
+    background-color: #d21e2b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Home Section */
+.home {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/manchester-united-5120x2880-17404.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    object-position: top;
+    height: 100vh;
+}
+
+.home .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.home .logo-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.home .buttons {
+    margin-top: 20px;
+}
+
+.home .btn {
+    background-color: #d21e2b;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.home .btn:hover {
+    background-color: #a3151d;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* About Section */
+.about {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h1 {
+    color: #d21e2b;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact h1 {
+    color: #d21e2b;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact form input, .contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #d21e2b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #a3151d;
+}
+
+
+/* Header and Navbar */
+.navbar {
+    background-color: #d21e2b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* About Section */
+.about {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h1 {
+    color: #d21e2b;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact h1 {
+    color: #d21e2b;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact form input, .contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #d21e2b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #a3151d;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
